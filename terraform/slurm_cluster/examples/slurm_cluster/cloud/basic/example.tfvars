@@ -25,8 +25,8 @@ slurm_cluster_name = "basic"
 region = "asia-east2-c"
 
 # *NOT* intended for production use
-# enable_devel = true
-
+enable_devel = true
+enable_hybrid = false
 enable_bigquery_load         = false
 enable_cleanup_compute       = true
 enable_cleanup_subscriptions = false
@@ -205,7 +205,7 @@ controller_instance_config = {
   static_ip          = null
   subnetwork_project = null
   subnetwork         = "default"
-  zone               = "us-central1-a"
+  zone               = "asia-east2-c"
 }
 
 #########

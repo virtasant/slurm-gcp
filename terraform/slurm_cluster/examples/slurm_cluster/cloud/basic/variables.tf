@@ -20,6 +20,7 @@
 
 variable "project_id" {
   type        = string
+  default     = "slurm-392101"
   description = "Project ID to create resources in."
 }
 
@@ -93,6 +94,7 @@ EOD
 
 variable "region" {
   type        = string
+  default     = "asia-east2-c"
   description = "The default region to place resources in."
 }
 
