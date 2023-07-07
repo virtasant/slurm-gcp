@@ -22,4 +22,4 @@ project_id = "slurm-392101"
 
 slurm_cluster_name = "simple"
 
-region = "asia-east2-c"
+region = "asia-east2"
