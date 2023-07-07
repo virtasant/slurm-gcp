@@ -18,11 +18,11 @@
 # GENERAL #
 ###########
 
-project_id = "<PROJECT_ID>"
+project_id = "slurm-392101"
 
 slurm_cluster_name = "basic"
 
-region = "us-central1"
+region = "asia-east2-c"
 
 # *NOT* intended for production use
 # enable_devel = true
